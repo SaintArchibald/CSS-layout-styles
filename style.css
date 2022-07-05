@@ -1,0 +1,129 @@
+
+*{
+    box-sizing: border-box;
+}
+.box{
+    border: 4px solid lightgray;
+    width: 100px;
+    height: 100px;
+}
+
+.small-box{
+    border: 4px solid lightgray;
+    width: 50px;
+    height: 50px;
+    margin-left: 24px;
+    /*  display: flex; */
+}
+.box-wrapper{
+    display: flex;
+    align-items: center;
+}
+.container{
+    border: 4px solid lightgrey;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+.container1{
+    border: 5px solid lightgray;
+    padding: 24px 24px 0 24px;
+    margin-top: 24px;
+/*  display: flex;
+    justify-content: center;*/
+}
+.row{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.box-1{
+    border: 2px solid lightgray;
+    width: 100%;
+    height: 24px;
+    margin-bottom: 24px;
+}
+.box-wrapper1{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.small-box1{
+    border: 4px solid lightgray;
+    width: 30%;
+    height: 100px;
+    margin-bottom: 24px;
+}
+/* MY ATTEMPT BELOW*/
+.container2{
+    border: 4px solid lightgrey;
+    padding: 24px 24px 0 24px;
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+}
+
+.box-b{
+    border: 4px solid lightgrey;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.box-2{
+    width: 45%;
+    height: 350px;
+    border: 4px solid lightgrey;
+    margin-bottom: 24px;
+}
+.box-wrapper2{
+    width: 45%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.box-small{
+    height:100px;
+    width: 100%;
+    margin: 10px auto;
+}
+.box-large{
+    width: 45%;
+}
+/* D-attempt
+.container{
+    border: 4px solid lightgrey;
+    padding: 24px 24px 0 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    border: 4px solid lightgrey;
+    margin-bottom: 24px;
+}
+.box-small{
+    height: 50px;
+}
+.box-wrapper{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+.box-large{
+    width: 45%;
+}
+*/
+/* #4*/
+.box-tiny{
+    width: 30%;
+    height: 80px;
+}
+.tiny-wrapper{
+    padding-top:10px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
